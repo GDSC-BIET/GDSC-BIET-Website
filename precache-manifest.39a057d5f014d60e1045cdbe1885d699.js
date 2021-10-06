@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d87a879833180c930aaad9e1bc96bc26",
+    "revision": "89613c1a15754ebba963ca977f357d4b",
     "url": "/GDSC-BIET-Website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GDSC-BIET-Website/static/css/2.c140bb19.chunk.css"
   },
   {
-    "revision": "1fb12d7d3d7723c7f537",
+    "revision": "515f4e8490f8e3deff45",
     "url": "/GDSC-BIET-Website/static/css/main.dcfe398b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GDSC-BIET-Website/static/js/2.ca9e8dc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1fb12d7d3d7723c7f537",
-    "url": "/GDSC-BIET-Website/static/js/main.79471eed.chunk.js"
+    "revision": "515f4e8490f8e3deff45",
+    "url": "/GDSC-BIET-Website/static/js/main.61b61678.chunk.js"
   },
   {
     "revision": "eaea388db9c2b4e4eb9a",
