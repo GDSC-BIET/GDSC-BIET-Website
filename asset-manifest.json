@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GDSC-BIET-Website/static/css/main.dcfe398b.chunk.css",
-    "main.js": "/GDSC-BIET-Website/static/js/main.61b61678.chunk.js",
-    "main.js.map": "/GDSC-BIET-Website/static/js/main.61b61678.chunk.js.map",
+    "main.js": "/GDSC-BIET-Website/static/js/main.8c626519.chunk.js",
+    "main.js.map": "/GDSC-BIET-Website/static/js/main.8c626519.chunk.js.map",
     "runtime-main.js": "/GDSC-BIET-Website/static/js/runtime-main.0502a3a3.js",
     "runtime-main.js.map": "/GDSC-BIET-Website/static/js/runtime-main.0502a3a3.js.map",
     "static/css/2.c140bb19.chunk.css": "/GDSC-BIET-Website/static/css/2.c140bb19.chunk.css",
     "static/js/2.ca9e8dc4.chunk.js": "/GDSC-BIET-Website/static/js/2.ca9e8dc4.chunk.js",
     "static/js/2.ca9e8dc4.chunk.js.map": "/GDSC-BIET-Website/static/js/2.ca9e8dc4.chunk.js.map",
     "index.html": "/GDSC-BIET-Website/index.html",
-    "precache-manifest.39a057d5f014d60e1045cdbe1885d699.js": "/GDSC-BIET-Website/precache-manifest.39a057d5f014d60e1045cdbe1885d699.js",
+    "precache-manifest.d06aa2ebb661c160fc651bc7a0b36e52.js": "/GDSC-BIET-Website/precache-manifest.d06aa2ebb661c160fc651bc7a0b36e52.js",
     "service-worker.js": "/GDSC-BIET-Website/service-worker.js",
     "static/css/2.c140bb19.chunk.css.map": "/GDSC-BIET-Website/static/css/2.c140bb19.chunk.css.map",
     "static/css/main.dcfe398b.chunk.css.map": "/GDSC-BIET-Website/static/css/main.dcfe398b.chunk.css.map",
@@ -41,6 +41,6 @@
     "static/css/2.c140bb19.chunk.css",
     "static/js/2.ca9e8dc4.chunk.js",
     "static/css/main.dcfe398b.chunk.css",
-    "static/js/main.61b61678.chunk.js"
+    "static/js/main.8c626519.chunk.js"
   ]
 }
