@@ -50,7 +50,7 @@ export default function Navbar() {
                 <NavLink
                   exact
                   activeClassName="active_menu"
-                  to="/event"
+                  to="/GDSC-BIET-Website/event"
                   className="nav-links"
                   onClick={closeMoblileMenu}
                 >
@@ -61,7 +61,7 @@ export default function Navbar() {
                 <NavLink
                   exact
                   activeClassName="active_menu"
-                  to="/projects"
+                  to="/GDSC-BIET-Website/projects"
                   className="nav-links"
                   onClick={closeMoblileMenu}
                 >
@@ -72,7 +72,7 @@ export default function Navbar() {
                 <NavLink
                   exact
                   activeClassName="active_menu"
-                  to="/team"
+                  to="/GDSC-BIET-Website/team"
                   className="nav-links"
                   onClick={closeMoblileMenu}
                 >
@@ -83,7 +83,7 @@ export default function Navbar() {
                 <NavLink
                   exact
                   activeClassName="active_menu"
-                  to="/contact"
+                  to="/GDSC-BIET-Website/contact"
                   className="nav-links"
                   onClick={closeMoblileMenu}
                 >
