@@ -1,5 +1,11 @@
 import React from "react";
-import { FaLinkedinIn, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 
 const Team_Members = (props) => {
   return (
@@ -12,28 +18,60 @@ const Team_Members = (props) => {
             <p>{props.profession}</p>
           </div>
           <div className="d-flex justify-content-center">
-            <div>
-              <a className="social_media" href="#" target="_black">
-                <FaLinkedinIn className="icon" />
-              </a>
-            </div>
+            {props.FbLink && (
+              <div>
+                <a className="social_media" href={props.FbLink} target="_black">
+                  <FaFacebookF className="icon" />
+                </a>
+              </div>
+            )}
 
-            <div>
-              <a className="social_media" href="#" target="_black">
-                <FaTwitter className="icon" />
-              </a>
-            </div>
+            {props.TwitterLink && (
+              <div>
+                <a
+                  className="social_media"
+                  href={props.TwitterLink}
+                  target="_black"
+                >
+                  <FaTwitter className="icon" />
+                </a>
+              </div>
+            )}
 
-            <div>
-              <a className="social_media" href="#" target="_black">
-                <FaInstagram className="icon" />
-              </a>
-            </div>
-            <div>
-              <a className="social_media" href="#" target="_black">
-                <FaGithub className="icon" />
-              </a>
-            </div>
+            {props.InstaLink && (
+              <div>
+                <a
+                  className="social_media"
+                  href={props.InstaLink}
+                  target="_black"
+                >
+                  <FaInstagram className="icon" />
+                </a>
+              </div>
+            )}
+            {props.GithubLink && (
+              <div>
+                <a
+                  className="social_media"
+                  href={props.GithubLink}
+                  target="_black"
+                >
+                  <FaGithub className="icon" />
+                </a>
+              </div>
+            )}
+
+            {props.LinkedinLink && (
+              <div>
+                <a
+                  className="social_media"
+                  href={props.LinkedinLink}
+                  target="_black"
+                >
+                  <FaLinkedin className="icon" />
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </div>
