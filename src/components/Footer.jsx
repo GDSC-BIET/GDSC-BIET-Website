@@ -48,7 +48,7 @@ const Footer = () => {
             />
           </div>
 
-          <Link to="/" className="link logo_img_">
+          <Link to="/GDSC-BIET-Website" className="link logo_img_">
             <img src={logo} alt="logo" />
             <h1 className="text-center logo">DSC BIET</h1>
           </Link>
