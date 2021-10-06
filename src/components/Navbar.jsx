@@ -25,11 +25,7 @@ export default function Navbar() {
       <IconContext.Provider value={{ color: " gray" }}>
         <div className="navbar">
           <div className="navbar-container container">
-            <NavLink
-              to="/GDSC-BIET-Website/"
-              className="navbar-logo"
-              onClick={closeMoblileMenu}
-            >
+            <NavLink to="/" className="navbar-logo" onClick={closeMoblileMenu}>
               <img className="logo_img" src={logo} alt="dsc logo" /> DSC BIET
             </NavLink>
 
@@ -42,7 +38,7 @@ export default function Navbar() {
                 <NavLink
                   exact
                   activeClassName="active_menu"
-                  to="/GDSC-BIET-Website/"
+                  to="/"
                   className="nav-links"
                   onClick={closeMoblileMenu}
                   aria-current="page"
@@ -54,7 +50,7 @@ export default function Navbar() {
                 <NavLink
                   exact
                   activeClassName="active_menu"
-                  to="/GDSC-BIET-Website/event"
+                  to="/event"
                   className="nav-links"
                   onClick={closeMoblileMenu}
                 >
@@ -65,7 +61,7 @@ export default function Navbar() {
                 <NavLink
                   exact
                   activeClassName="active_menu"
-                  to="/GDSC-BIET-Website/projects"
+                  to="/projects"
                   className="nav-links"
                   onClick={closeMoblileMenu}
                 >
@@ -76,7 +72,7 @@ export default function Navbar() {
                 <NavLink
                   exact
                   activeClassName="active_menu"
-                  to="/GDSC-BIET-Website/team"
+                  to="/team"
                   className="nav-links"
                   onClick={closeMoblileMenu}
                 >
@@ -87,7 +83,7 @@ export default function Navbar() {
                 <NavLink
                   exact
                   activeClassName="active_menu"
-                  to="/GDSC-BIET-Website/contact"
+                  to="/contact"
                   className="nav-links"
                   onClick={closeMoblileMenu}
                 >
