@@ -15,7 +15,7 @@ export default function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/GDSC-BIET-Website/" exact component={Home} />
           <Route path="/GDSC-BIET-Website/event" exact component={Event} />
           <Route
             path="/GDSC-BIET-Website/projects"
