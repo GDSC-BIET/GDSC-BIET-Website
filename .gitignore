@@ -1,5 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-/reactjs-dscBiet
+
 # dependencies
 /node_modules
 /.pnp
