@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/GDSC-BIET-Website/precache-manifest.1f32ff1ecadd768a201217619f227463.js"
+  "/GDSC-BIET-Website/precache-manifest.56268f230e69b21cb718d7deaed1fb38.js"
 );
 
 self.addEventListener('message', (event) => {
