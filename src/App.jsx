@@ -5,7 +5,7 @@ import Event from "./pages/Events/Event";
 import Projects from "./pages/Projects/Projects";
 import Team from "./pages/Team/Team";
 import Contact from "./pages/Contact/Contact";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Switch, Route, Redirect } from "react-router-dom";
 
 // App component
 
@@ -14,11 +14,12 @@ export default function App() {
     <>
       <Navbar />
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/event" exact component={Event} />
-        <Route path="/projects" exact component={Projects} />
-        <Route path="/team" exact component={Team} />
-        <Route path="/contact" exact component={Contact} />
+        <Route path="/GDSC-BIET-Website/" exact component={Home} />
+        <Route path="/GDSC-BIET-Website/event" exact component={Event} />
+        <Route path="/GDSC-BIET-Website/projects" exact component={Projects} />
+        <Route path="/GDSC-BIET-Website/team" exact component={Team} />
+        <Route path="/GDSC-BIET-Website/contact" exact component={Contact} />
+        <Redirect to="/GDSC-BIET-Website" />
       </Switch>
     </>
   );
