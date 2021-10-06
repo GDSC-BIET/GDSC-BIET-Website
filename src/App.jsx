@@ -16,10 +16,14 @@ export default function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/event" exact component={Event} />
-          <Route path="/projects" exact component={Projects} />
-          <Route path="/team" exact component={Team} />
-          <Route path="/contact" exact component={Contact} />
+          <Route path="/GDSC-BIET-Website/event" exact component={Event} />
+          <Route
+            path="/GDSC-BIET-Website/projects"
+            exact
+            component={Projects}
+          />
+          <Route path="/GDSC-BIET-Website/team" exact component={Team} />
+          <Route path="/GDSC-BIET-Website/contact" exact component={Contact} />
         </Switch>
       </Router>
     </>
