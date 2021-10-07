@@ -18,7 +18,7 @@ export default function Contact() {
           <h2 className="text-center custom_heading">Lets Talk !</h2>
           <div className="border_animation"></div>
           <p className="text-center">
-            Would like to sponsor an event. Get in touch with us!
+            Would you like to sponsor an event? Get in touch with us!
           </p>
 
           <div className="row">
@@ -54,7 +54,7 @@ export default function Contact() {
 
               <div className="_heading">
                 <h2>Email</h2>
-                <p>teamintrospectors@gmail.com</p>
+                <p>gdscbiet@gmail.com</p>
               </div>
             </div>
 
@@ -65,7 +65,7 @@ export default function Contact() {
 
               <div className="_heading">
                 <h2>Address</h2>
-                <p>Ibrahimpatnam, BIET</p>
+                <p>Ibrahimpatnam, Telangana</p>
               </div>
             </div>
           </div>
