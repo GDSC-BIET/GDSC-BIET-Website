@@ -50,7 +50,7 @@ const Footer = () => {
 
           <Link to="/GDSC-BIET-Website" className="link logo_img_">
             <img src={logo} alt="logo" />
-            <h1 className="text-center logo">DSC BIET</h1>
+            <h1 className="text-center logo">GDSC BIET</h1>
           </Link>
 
           <div className="d-flex justify-content-center">
@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
         <div className="bottom_footer">
           <h5 className="text-center">
-            Developed with <span role="img">❤️</span> by Introspctors
+            Developed with <span role="img">❤️</span> by Team Introspectors
           </h5>
         </div>
       </div>
